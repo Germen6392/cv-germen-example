@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+	<link rel="stylesheet" href="styles.css">
+	<!-- favicon -->
+	<link rel="icon" href="https://cdn.profesional.ticmas.io/logos/argentina-programa.svg">
+	<!-- Font Awesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<!-- Google Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap" rel="stylesheet">
+	<title>Germen Portfolio</title>
+</head>
+<body>
+	<!--SECCION INICIO ---->
+	<section id="inicio">
+		<div class="contenido">
+			<header>
+				<div class="contenido-header">
+					<h1 class="titulo">Germen</h1>
+					<nav id="nav"class="">
+						<ul id="links">
+							<li><a href="#inicio" class="seleccionado" onClick="seleccionar(this)">INICIO</a></li>
+							<li><a href="#sobremi"onClick="seleccionar(this)">SOBRE MI</a></li>
+							<li><a href="#habilidades"onClick="seleccionar(this)">HABILIDADES</a></li>
+							<li><a href="#experiencia"onClick="seleccionar(this)">EXPERIENCIA</a></li>
+							<li><a href="#contacto"onClick="seleccionar(this)">CONTACTO</a></li>
+						</ul>
+					</nav>
+					<!--Iconos del menu responsive -->
+					<div id="icono-nav" onClick="responsiveMenu()" >
+						<i class="fa-solid fa-bars"></i>
+					</div>
+
+					<!--Iconos de las redes sociales -->
+					<div id="redes">
+						<a href="#"><i class="fa-brands fa-youtube"></i></a>
+						<a href="#"><i class="fa-brands fa-facebook"></i></a>
+						<a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+					</div>
+				</div>
+			</header>
+			<div class="presentacion">
+				<p class="bienvenida">Bienvenidos</p>
+				<h2 class="titulo">Soy <span>German Rodriguez </span>,Desarrollador Web</h2>
+				<p class="descripcion">Dolor corporis repellendus similique illum non quod sit Facilis molestiae consequatur tempora quisquam magni. Molestiae iusto repudiandae voluptas voluptatem vero! Temporibus corporis laborum nam saepe in Iure iusto at ipsum.</p>
+				<a href="#portfolio">Ir al Portfolio</a>
+			</div>
+		</div>
+	</section>
+<!--SECCION SOBRE MI -->
+<section id="sobremi">
+	<div class="contenedor-foto">
+<img src="imagenes/randomuser.jpg" alt="Foto de Perfil">
+	</div>
+	<div class="sobremi">
+		<p class="titulo-seccion">Sobre Mi</p>
+		<h2>Quien <span>Soy</span></h2>
+		<h3>Desarrollador Web</h3>
+		<p>Consectetur eligendi quisquam quisquam deleniti omnis, incidunt, quo ea reprehenderit. Repellendus sit illo cumque animi debitis Minus odit perferendis inventore sequi rerum reiciendis. Eum quos accusamus quae quam odio. Vel.</p>
+		<p>Lorem ratione possimus praesentium aliquam aspernatur doloribus sequi Tempora</p>
+		<a href="#">Descargar CV</a>
+	</div>
+</section>
+
+<!--SECCION EXPERIENCIA -->
+<section id="experiencia">
+	<h3 class="titulo-seccion">EMPRESAS DONDE PRESTÉ MIS SERVICIOS</h3>
+	<div class="fila">
+		<div class="empresa">
+			<span class="icono"><i class="fa-solid fa-code"></i></span>
+			<h4>Empresa 1</h4>
+			<hr>
+			<ul class="servicios-tag">
+				<li>Item 1</li>
+				<li>Item 2</li>
+				<li>Item 3</li>
+			</ul>
+			<p>Elit ipsum molestias quis odio perferendis Fugiat unde aut dolores repellat nisi sed Iure facere omnis sit fugit saepe perferendis Fugit cupiditate alias consectetur rem alias, eius. Mollitia dolorum repellendus.</p>
+		</div>
+		<div class="empresa">
+			<span class="icono"><i class="fa-solid fa-code"></i></span>
+			<h4>Empresa 2</h4>
+			<hr>
+			<ul class="servicios-tag">
+				<li>Item 1</li>
+				<li>Item 2</li>
+				<li>Item 3</li>
+			</ul>
+			<p>Elit ipsum molestias quis odio perferendis Fugiat unde aut dolores repellat nisi sed Iure facere omnis sit fugit saepe perferendis Fugit cupiditate alias consectetur rem alias, eius. Mollitia dolorum repellendus.</p>
+		</div>
+		<div class="empresa">
+			<span class="icono"><i class="fa-solid fa-code"></i></span>
+			<h4>Empresa 3</h4>
+			<hr>
+			<ul class="servicios-tag">
+				<li>Item 1</li>
+				<li>Item 2</li>
+				<li>Item 3</li>
+			</ul>
+			<p>Elit ipsum molestias quis odio perferendis Fugiat unde aut dolores repellat nisi sed Iure facere omnis sit fugit saepe perferendis Fugit cupiditate alias consectetur rem alias, eius. Mollitia dolorum repellendus.</p>
+		</div>
+	</div>
+</section>
+
+<!--SECCION HABILIDADES -->
+
+<div id="habilidades" class="contenedor-habilidades">
+<h3>HABILIDADES</h3>
+<div class="habilidad">
+	<div class="info">
+		<p><span class="lista"></span>HTML Y CSS</p>
+		<span class="porcentaje">95%</span>
+	</div>
+	<div class="barra">
+		<div id="html" class=""></div>
+	</div>
+</div>
+
+<div class="habilidad">
+	<div class="info">
+		<p><span class="lista"></span>Javascript</p>
+		<span class="porcentaje">90%</span>
+	</div>
+	<div class="barra">
+		<div id="js" class=""></div>
+	</div>
+</div>
+<div class="habilidad">
+	<div class="info">
+		<p><span class="lista"></span>Base de Datos</p>
+		<span class="porcentaje">90%</span>
+	</div>
+	<div class="barra">
+		<div id="bd" class=""></div>
+	</div>
+</div>
+<div class="habilidad">
+	<div class="info">
+		<p><span class="lista"></span>Photoshop</p>
+		<span class="porcentaje">85%</span>
+	</div>
+	<div class="barra">
+		<div id="ps" class=""></div>
+	</div>
+</div>
+
+</div>
+
+<!-- SECCION PORTAFOLIO -->
+<section id="portfolio">
+<h3 class=titulo-seccion>Mis Proyectos</h3>
+<div class="fila">
+	<div class="proyecto">
+		<div class="overlay"><img src="imagenes/ecommerce.jpg" alt="E-commerce">
+			<div class="info">
+				<h4>Descripción del Proyecto</h4>
+				<p>Diseño Web</p>
+			</div>
+		</div>
+	</div>
+	<div class="proyecto">
+		<div class="overlay"><img src="imagenes/ecommerce.jpg" alt="Videojuego">
+			<div class="info">
+				<h4>Descripción del Proyecto</h4>
+				<p>Diseño Web</p>
+			</div>
+		</div>
+	</div>
+	<div class="proyecto">
+		<div class="overlay"><img src="imagenes/ecommerce.jpg" alt="Servidor">
+			<div class="info">
+				<h4>Descripción del Proyecto</h4>
+				<p>Diseño Web</p>
+			</div>
+		</div>
+	</div>
+
+</div>
+</section>
+<!-- SECCION CONTACTO -->
+<section id="contacto">
+<h3 class="titulo-seccion">Contactame</h3>
+<div class="contenedor-form">
+	<form action="" method="post">
+<div class="fila mitad">
+<input type="text" name="nombre" placeholder="Nombre Completo" class="input-mitad">
+<input type="email" name="email" placeholder="Dirección de Email" class=input-mitad">
+
+</div>
+<div class="fila">
+<input class="input-full" type="text" name="tema" placeholder="Tema...">
+</div>
+<div class="fila">
+<textarea id="" class="input-full" name="mensaje" cols="30" rows="10" placeholder="Tu mensaje"></textarea>
+</div>
+<input class="btn-enviar" type="submit" value="Enviar Mensaje">
+	</form>
+</div>
+</section>
+<!-- FOOTER -->
+<footer>
+<p>Este portafolio es solo ilustrativo para ser presentado en Ticmas Academy</p>
+<p>2022</p>
+	<div class="redes">
+		<a href="#"><i class="fa-brands fa-youtube"></i></a>
+		<a href="#"><i class="fa-brands fa-facebook"></i></a>
+		<a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+	</div>
+	
+</footer>
+<script type="text/javascript" src="script.js"></script>
+
+</body>
+</html>
