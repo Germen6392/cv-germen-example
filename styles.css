@@ -5,7 +5,10 @@ margin:0;
 box-sizing:border-box;
 font-family: 'Lato', sans-serif;
 }
-
+/*efecto de desplazamiento suave en el documento*/
+html {
+  scroll-behavior: smooth;
+}
 .titulo {
 	font-family:'Rubik Dirt', cursive;
 }
