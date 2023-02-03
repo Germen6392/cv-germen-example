@@ -187,15 +187,14 @@
 <div class="contenedor-form">
 	<form action="" method="post">
 <div class="fila mitad">
-<input type="text" name="nombre" placeholder="Nombre Completo" class="input-mitad">
-<input type="email" name="email" placeholder="Dirección de Email" class=input-mitad">
-
+<input type="text" name="nombre" placeholder="Nombre Completo" class="input-mitad" required>
+<input type="email" name="email" placeholder="Dirección de Email" pattern="^[a-zA-Z0-9_.-]+@([a-zA-Z0-9]+\.)+([a-zA-Z]{2,4})" class=input-mitad" required >
 </div>
 <div class="fila">
-<input class="input-full" type="text" name="tema" placeholder="Tema...">
+<input class="input-full" type="text" name="tema" placeholder="Tema..."required>
 </div>
 <div class="fila">
-<textarea id="" class="input-full" name="mensaje" cols="30" rows="10" placeholder="Tu mensaje"></textarea>
+<textarea id="" class="input-full" name="mensaje" cols="30" rows="10" placeholder="Tu mensaje" required></textarea>
 </div>
 <input class="btn-enviar" type="submit" value="Enviar Mensaje">
 	</form>
